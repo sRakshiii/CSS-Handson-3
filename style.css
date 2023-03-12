@@ -1,0 +1,139 @@
+body{
+    margin: 0px;
+    background-color: grey;
+}
+
+.line{
+    position: relative;
+    top: 150px;
+}
+
+.box{
+    display: flex;  
+}
+
+.boxs{
+    border: 5px solid red;
+    background-color:white;
+    border-radius: 20px;
+    text-align: center;
+    color:crimson;
+    text-shadow:2px 2px black;
+    width: 400px;
+    position: absolute;
+    top:10px;
+    left: 400px;
+    right: 400px;
+    box-shadow: 6px 6px darkmagenta;
+}
+.boxFix{
+    display: flex;
+    border: 8px solid red;
+    padding: 5px;
+    width: 360px;
+    height: 80px;
+    border-radius: 20px;
+    color: brown;
+    background-color:greenyellow;
+    justify-content: space-between;
+    box-shadow: 6px 6px darkmagenta;
+    text-align: center;
+    font-weight: bold;
+    position:fixed;
+    top: 400px;
+    left: 380px;
+}
+
+
+.Multibox{
+    display: flex;
+    border:8px solid green;
+    position: relative;
+    top: 150px;
+    height: 600px;
+    
+}
+.boxM{
+    border: 5px solid red;
+    background-color:white;
+    border-radius: 20px;
+    text-shadow: 2px 2px palevioletred ; 
+}
+
+.box1{
+    text-align: center;
+    width: 250px;
+    height: 180px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    box-shadow: 6px 6px darkmagenta;
+}
+
+.box2{
+    padding: 25px;
+    width: 200px;
+    height: 150px;
+    position: absolute;
+    top: 10px;
+    left: 850px;
+    box-shadow: 6px 6px darkmagenta;
+}
+
+.box3{
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    top: 300px;
+    left: 10px;
+    box-shadow: 6px 6px darkmagenta;
+}
+
+.box4{
+    text-align: center;
+    padding: 6px;
+    position: absolute;
+    top: 300px;
+    left: 850px;
+    box-shadow: 6px 6px darkmagenta;
+}
+.button{
+    background-color: crimson;
+}
+
+.infoBox{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 700px;
+    border: 8px solid purple;
+    background-color: green;
+    position: relative;
+    top: 180px;
+    left:250px;
+    right:300px;
+
+}
+.item{
+    border: 2px solid gray;
+    background-color:khaki;
+}
+.head{
+    align-items: center;
+}
+.infoBox1{
+    width: 330px;
+}
+.infoBox2{
+    width: 330px;
+}
+.infoBox3{
+    width: 705px;
+}
+
+.twobox{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0px 6px 10px;
+}
