@@ -97,8 +97,10 @@ body{
     left: 850px;
     box-shadow: 6px 6px darkmagenta;
 }
-.button{
+button{
     background-color: crimson;
+    border-radius: 10px;
+    box-shadow: 2px 2px black;
 }
 
 .infoBox{
